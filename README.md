@@ -14,7 +14,7 @@
 ## Install
 
 ```javascript
-$ npm install sotayamashita/google-search-autocomplete-cli --save-dev
+$ npm install sotayamashita/google-search-autocomplete-cli --global
 ```
 
 
