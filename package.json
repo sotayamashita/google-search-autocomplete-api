@@ -1,0 +1,43 @@
+{
+  "name": "google-search-autocomplete-cli",
+  "version": "1.0.0",
+  "license": "MIT",
+  "repository": "sotayamashita/google-search-autocomplete-cli",
+  "author": {
+    "name": "Sota Yamashita",
+    "url": "github.com/sotayamashita"
+  },
+  "bin": {
+    "gsa": "cli.js"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "bugs": {
+    "url": "https://github.com/sotayamashita/google-search-autocomplete-cli/issues"
+  },
+  "scripts": {
+    "lint": "eslint -f 'node_modules/eslint-friendly-formatter' index.js",
+    "lint:fix": "eslint -f 'node_modules/eslint-friendly-formatter' --fix index.js",
+    "test": "npm run lint"
+  },
+  "files": [
+    "cli.js"
+  ],
+  "keywords": [
+    "cli",
+    "google",
+    "search"
+  ],
+  "dependencies": {
+    "google-search-autocomplete": "github:sotayamashita/google-search-autocomplete",
+    "meow": "^3.7.0"
+  },
+  "devDependencies": {
+    "eslint": "^3.5.0",
+    "eslint-config-airbnb-base": "^7.1.0",
+    "eslint-friendly-formatter": "^2.0.6",
+    "eslint-plugin-import": "^1.15.0",
+    "pre-commit": "^1.1.3"
+  }
+}
