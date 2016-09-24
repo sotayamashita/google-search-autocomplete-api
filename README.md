@@ -5,7 +5,7 @@
 
 # Google Search Autocomplete CLI [![Travis Build Status][travis-badge]][travis-link] [![Packages By Me][package-badge]][package-link]
 
-> Get google search autocomplete
+> google-search-autocomplete-cli
 
 
 ## Install
